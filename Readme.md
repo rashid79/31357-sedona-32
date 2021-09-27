@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Рашид Салахетдинов](https://up.htmlacademy.ru/htmlcss/32/user/31357).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
 
 ---
 
