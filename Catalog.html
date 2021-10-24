@@ -2,7 +2,6 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Седона - гостиницы</title>
   </head>
   
@@ -144,7 +143,6 @@
               <span class="visually-hidden">Показать список</span>
             </a>
 
-
            
             <ul class="hotels-list">
               <li class="hotels-card">
@@ -154,6 +152,16 @@
                 </a>
                 <b class="hotels-card-price">от 4000 ₽</b>
                 <a class="hotels-card-button button" href="#">Подробнее</a>
+                <b class="hotels-id">Гостиница</b>
+                <b class="hotels-card-price">от 4000 ₽</b>
+                <a class="hotels-card-button button" href="#">Подробнее</a>
+                <a class="hotels-favorites-button button" href="#">В избранное</a>
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <a class="hotels-rating">8,5</a>
               </li>
               <li class="hotels-card">
                 <a class="hotels-card-link" href="#">
@@ -162,6 +170,14 @@
                 </a>
                 <b class="hotels-card-price">от 3000 ₽</b>
                 <a class="hotels-card-button button" href="#">Подробнее</a>
+                <b class="hotels-id">Мотель</b>
+                <b class="hotels-card-price">от 3000 ₽</b>
+                <a class="hotels-card-button button" href="#">Подробнее</a>
+                <a class="hotels-favorites-button button" href="#">В избранное</a>
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <a class="hotels-rating">8,9</a>
               </li>
               <li class="hotels-card">
                 <a class="hotels-card-link" href="#">
@@ -170,6 +186,13 @@
                 </a>
                 <b class="hotels-card-price">от 2000 ₽</b>
                 <a class="hotels-card-button button" href="#">Подробнее</a>
+                <b class="hotels-id">Апартаменты</b>
+                <b class="hotels-card-price">от 2000 ₽</b>
+                <a class="hotels-card-button button" href="#">Подробнее</a>
+                <a class="hotels-favorites-button button" href="#">В избранное</a>
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <a class="hotels-rating">9,2</a>
               </li>
               <li class="hotels-card">
                 <a class="hotels-card-link" href="#">
@@ -180,7 +203,53 @@
                 <a class="hotels-card-button button" href="#">Подробнее</a>
               </li>
             </ul>
+                <b class="hotels-id">Гостиница</b>
+                <b class="hotels-card-price">от 3000 ₽</b>
+                <a class="hotels-card-button button" href="#">Подробнее</a>
+                <a class="hotels-favorites-button button" href="#">В избранное</a>
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <img class="hotels-stars-image" src="" alt="hotel-star-logo.png">
+                <a class="hotels-rating">9,2</a>
+              </li>
+            </ul>
+            <button class="button pagination-show-more" type="button">Загрузить ещё</button>
 
+            <ul class="pagination">
+              <li class="pagination-item">
+                <a class="pagination-link pagination-prev pagination-disabled">
+                  <span class="visually-hidden">Предыдущая страница</span>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link pagination-current">1</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">2</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">3</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">4</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">...</a>
+              </li>
+              <li class="pagination-item">
+                <a class="pagination-link" href="#">10</a>
+              </li>
+            </ul>
+
+            <a class="hotels-on-pages">Гостиниц на странице</a>
+            <form class="sorting-type">
+              <label class="visually-hidden" for="sorting">Сортировка</label>
+              <select class="select-control" id="sorting" name="sorting">
+                <option value="popular">Сначала популярное</option>
+                <option value="cheap">Сначала дешёвое</option>
+                <option value="expensive">Сначала дорогое</option>
+              </select>
+              <button class="visually-hidden" type="submit">Отсортировать продукты</button>
+            </form>
 
 
     <section class="subscribe">
@@ -192,6 +261,9 @@
         <label class="visually-hidden" for="newsletter-email" id="newsletter-email" required></label>
       </p>
       <button class="button newsletter-button" type="submit">Подписаться</button>
+      <button class="button newsletter-button" type="submit">
+      <span class="visually-hidden">Подписаться</span>
+    </button>
     </form>
     </section>
   </main>
