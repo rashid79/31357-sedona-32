@@ -1,48 +1,48 @@
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("fonts/pt-sans-regular.woff2") format("woff2");
-    font-display: swap;
-  }
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
   
-  @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("fonts/pt-sans-bold.woff2") format("woff2");
-    font-display: swap;
-  }
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
 
-    body {
-        font-family: "PT Sans", sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        color: #242424;
-        background-color: #FBF7F4;
-      }
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #FBF7F4;
+}
 
-      .page-header {
-        color: #000000;
-        background: #FFFFFF;
-      }
+.page-header {
+  color: #000000;
+  background: #FFFFFF;
+}
 
-      .navigation-link {
-        font-family: "PT Sans", sans-serif;
-        line-height: 22px;
-        font-weight: 700;
-        text-align: center;
-        color: #FFFFFF;
-        background-color: #000000;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-      .main-index {
-        color: #FFFFFF;
-        background-color: #000000;
-        background-image: url("img/sedona-index-background.jpg");
-          background-size: 100% auto;
-        background-repeat: no-repeat;
-      }
+.main-index {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("img/sedona-index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
